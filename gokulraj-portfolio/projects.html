@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects · Gokulraj</title>
+<meta name="description" content="Portfolio of Gokulraj — engineer, builder, and curious human.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  
+    <nav class="nav container">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="dot"></span><span class="name">Gokulraj</span>
+      </a>
+      <div class="row">
+        <a  href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a  href="resume.html">Resume</a>
+        <a  href="contact.html">Contact</a>
+      </div>
+    </nav>
+    
+  
+  <section class="container section">
+    <h2>Projects</h2>
+    <p class="muted">Replace these with your own. Keep them punchy: problem → approach → result.</p>
+    <div class="grid cards">
+      <article class="card">
+        <h3>Smart Prosthetic Hand</h3>
+        <p class="muted">3D-printed design using servo actuation with Force Sensitive Resistors for grip feedback. Microcontroller handles PID loop; web dashboard logs tests.</p>
+        <ul class="list">
+          <li>Technologies: Arduino, FSRs, PID, WebSerial</li>
+          <li>Outcome: 35% cost reduction vs comparable kits</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>TaskList — Keyboard‑First To‑Do</h3>
+        <p class="muted">Zero-mouse workflow: add via Enter, navigate with j/k. Export to JSON. Built for speed and clarity.</p>
+        <ul class="list">
+          <li>Stack: HTML, CSS, JS</li>
+          <li>Feature: localStorage persistence</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>IoT Room Monitor</h3>
+        <p class="muted">ESP32-based temperature, humidity, and CO₂ logger posting to a lightweight API with a web chart frontend.</p>
+        <ul class="list">
+          <li>Stack: ESP32, MicroPython, Chart.js</li>
+          <li>Result: Real-time alerts with thresholds</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  
+    <footer>
+      <div class="footer-links">
+        <a href="mailto:gokulraj@example.com">Email</a>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/your-username" target="_blank">LinkedIn</a>
+      </div>
+      <div class="muted" style="margin-top:6px;">© <span id="yr"></span> Gokulraj · Built with pure HTML/CSS/JS</div>
+      <script>document.getElementById('yr').textContent = new Date().getFullYear()</script>
+    </footer>
+    
+  <script src="assets/script.js"></script>
+</body>
+</html>

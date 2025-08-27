@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · Gokulraj</title>
+<meta name="description" content="Portfolio of Gokulraj — engineer, builder, and curious human.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  
+    <nav class="nav container">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="dot"></span><span class="name">Gokulraj</span>
+      </a>
+      <div class="row">
+        <a class="active" href="index.html">Home</a>
+        <a  href="projects.html">Projects</a>
+        <a  href="resume.html">Resume</a>
+        <a  href="contact.html">Contact</a>
+      </div>
+    </nav>
+    
+  
+  <section class="container hero">
+    <div>
+      <div class="row" style="gap:10px; margin-bottom:8px">
+        <span class="tag">Engineer</span>
+        <span class="tag">Web · Electronics</span>
+        <span class="tag">Open-source</span>
+      </div>
+      <h1>Hello, I’m Gokulraj.<br> I build useful, beautiful things.</h1>
+      <p class="muted">From embedded gizmos to web apps, I love turning rough ideas into crisp, working systems. Here’s a snapshot of my work and what I can do for you.</p>
+      <div class="cta">
+        <a class="btn" href="projects.html">See Projects</a>
+        <a class="btn ghost" href="resume.html">View Resume</a>
+      </div>
+      <div style="margin-top:18px" class="muted">Looking for the TL;DR? Try <code class="inline">projects.html</code> then jump to <code class="inline">contact.html</code>.</div>
+    </div>
+    <div class="avatar">
+      <img src="assets/avatar.svg" alt="Abstract avatar for Gokulraj">
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>Skills & Tools</h2>
+    <div class="row">
+      <span class="tag">JavaScript</span>
+      <span class="tag">Python</span>
+      <span class="tag">C/C++</span>
+      <span class="tag">HTML/CSS</span>
+      <span class="tag">Node & Express</span>
+      <span class="tag">React</span>
+      <span class="tag">Arduino</span>
+      <span class="tag">Raspberry Pi</span>
+      <span class="tag">Git</span>
+      <span class="tag">Figma</span>
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>Highlights</h2>
+    <div class="grid cards">
+      <div class="card">
+        <h3>Smart Prosthetic Prototype</h3>
+        <p class="muted">A low-cost, 3D-printable upper-limb prosthetic with pressure sensing and closed-loop control. Focus on reliability and affordability.</p>
+      </div>
+      <div class="card">
+        <h3>TaskList Web App</h3>
+        <p class="muted">A minimalist to‑do app with keyboard-first UX (add with <span class="kbd">Enter</span>). Built to be fast and distraction‑free.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Starter</h3>
+        <p class="muted">This site itself: clean, fast, and easy to edit. Drop your projects in <code class="inline">projects.html</code> and ship.</p>
+      </div>
+    </div>
+  </section>
+
+  
+    <footer>
+      <div class="footer-links">
+        <a href="mailto:gokulraj@example.com">Email</a>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/your-username" target="_blank">LinkedIn</a>
+      </div>
+      <div class="muted" style="margin-top:6px;">© <span id="yr"></span> Gokulraj · Built with pure HTML/CSS/JS</div>
+      <script>document.getElementById('yr').textContent = new Date().getFullYear()</script>
+    </footer>
+    
+  <script src="assets/script.js"></script>
+</body>
+</html>
